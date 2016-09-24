@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Dealer()
+comment1.params=
+comment1.target=int[]\ generate_deck()
+comment1.text=\r\n\ Fills\ the\ deck\ with\ random\ values\ and\ sets\ the\ value\ of\ cardsUsed\ to\ 0.\r\n
+comment2.params=
+comment2.target=int\ deal_card()
+numComments=3

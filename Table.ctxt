@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Table()
+comment1.params=
+comment1.target=void\ start_game()
+comment1.text=\r\n\ Sets\ player\ information\ using\ user\ inputs.\r\n
+comment2.params=
+comment2.target=void\ show_results()
+comment2.text=\r\n\ Prints\ player\ information\ from\ the\ lists\ of\ outed\ players\ and\ players\ who\ are\ still\ in\ the\ round.\r\n
+comment3.params=p
+comment3.target=boolean\ check_game_over(Player)
+comment3.text=\r\n\ Determines\ if\ a\ player\ is\ still\ in\ the\ round\ and\ prints\ this\ information\ for\ the\ user\ to\ see.\r\n
+comment4.params=
+comment4.target=void\ remove_outed_players()
+comment4.text=\r\n\ Removes\ any\ players\ that\ have\ either\ busted\ or\ reached\ 21.\r\n
+comment5.params=
+comment5.target=void\ round_reset()
+comment5.text=\r\n\ Resets\ the\ appropriate\ player\ parameters\ to\ prepare\ the\ game\ for\ a\ new\ round.\r\n\ This\ involves\ empyting\ the\ outed_players\ list\ into\ the\ players\ list\ and\ creating\ a\ \r\n\ new\ Dealer\ who\ has\ the\ same\ settings\ as\ a\ new\ player.\r\n
+comment6.params=
+comment6.target=void\ keep_playing_or_quit()
+comment6.text=\r\n\ Determines\ if\ the\ users\ would\ like\ to\ play\ a\ new\ game.\ If\ a\ player\ does\ not\ have\ any\ funds\ remaining,\r\n\ he/she\ is\ removed\ from\ the\ game.\ If\ none\ of\ the\ players\ have\ funds,\ then\ this\ method\ will\ start\ a\ new\ game.\r\n
+comment7.params=new_round
+comment7.target=void\ play_blackjack(boolean)
+comment7.text=\r\n\ Plays\ a\ game\ of\ blackjack.\ Creates\ and\ shuffles\ the\ deck\ to\ be\ used\ in\ the\ game.\ Calls\ the\ other\ methods\ in\ this\ class.\r\n\ @param\ new_round\ a\ boolean\ that\ determines\ if\ the\ game\ is\ a\ new\ game\ or\ a\ new\ round.\ \r\n
+numComments=8
